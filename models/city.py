@@ -8,9 +8,3 @@ class City(BaseModel):
 
     state_id = ''
     name = ''
-
-
-    def __init__(self, *args, **kwargs):
-        """initializes City"""
-        super().__init__(*args, **kwargs)
-
