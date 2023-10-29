@@ -1,0 +1,17 @@
+header {
+  background-color: #484848;
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.header .logo {
+  float: left;
+  margin-left: 20px;
+  height: 70px;
+  line-height: 70px;
+}
+
+.header .logo img {
+  vertical-align: middle;
+}
