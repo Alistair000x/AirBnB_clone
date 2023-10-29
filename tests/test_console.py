@@ -193,4 +193,4 @@ class TestConsole(unittest.TestCase):
         my_model = BaseModel()
         my_model.save()
 
-        with patch('sys.stdout', new_callable=StringIO) as mock_stdout
+        with patch('sys.stdout', new_callable=StringIO) as mock_stdout:
